@@ -1,3 +1,8 @@
+/* Method 1 (Simple but inefficient)
+Use two loops. 
+Outer loop iterates through all the element and inner loop finds out whether the current index picked by the outer loop is equilibrium index or not. 
+Time complexity of this solution is O(n^2).*/
+
 // C++ program to find equilibrium index of an array 
 #include <bits/stdc++.h> 
 using namespace std; 
@@ -38,7 +43,4 @@ int main()
     return 0; 
    } 
 
-/* Method 1 (Simple but inefficient)
-Use two loops. 
-Outer loop iterates through all the element and inner loop finds out whether the current index picked by the outer loop is equilibrium index or not. 
-Time complexity of this solution is O(n^2).*/
+
