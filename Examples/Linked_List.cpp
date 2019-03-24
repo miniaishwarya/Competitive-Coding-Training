@@ -47,7 +47,7 @@ public:
     void addAtTail(int val) {
         Node *curr = head;
         // checking if curr is NULL and curr->next is NULL
-        while(curr && curr>next!=NULL){
+        while(curr && curr->next!= NULL){
             curr = curr->next;
         }
         Node *new_node= new Node(val);
@@ -61,7 +61,7 @@ public:
     /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
     void addAtIndex(int index, int val) {
         if(index>size){
-            return -1;
+            return ;
         }
         
         Node *curr=head;
@@ -81,7 +81,7 @@ public:
     /** Delete the index-th node in the linked list, if the index is valid. */
     void deleteAtIndex(int index) {
            if(index>size){
-            return -1;
+            return ;
         }
         
         Node *curr=head;
@@ -93,7 +93,7 @@ public:
         
         //Node *new_node = new Node(val);
         //new_node->next=curr->next;
-        curr->next=curr->next=>next;
+        curr->next=curr->next->next;
         size--;
         return ;
     }
