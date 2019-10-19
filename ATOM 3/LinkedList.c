@@ -254,18 +254,18 @@ int main()
  Traverse(head);
 
 */
- addAtTail(30);
+ //addAtTail(30);
 
- printf("----------Updated--------- \n");
- Traverse(head);
+ //printf("----------Updated--------- \n");
+ //Traverse(head);
 
 
- addAtIndex(4,30);
+ //addAtIndex(4,30);
  //addAtIndex(6,30);
- addAtIndex(2,30);
+ //addAtIndex(2,30);
 
- printf("----------Updated--------- \n");
- Traverse(head);
+ //printf("----------Updated--------- \n");
+ //Traverse(head);
 
 /*
  deleteAtIndex(4);
@@ -290,16 +290,16 @@ Remove_nth_node(head,n);
 */
 //Traverse(head);
 
-printf("\n Size of linked list:  %d ",size);
+//printf("\n Size of linked list:  %d ",size);
 
-//Reverse(head);
+Reverse(head);
 
 //Delete_Linked_List_Elements(head,30);
 
-printf("----------Updated--------- \n");
-printf("\n Size of linked list:  %d ",size);
+//printf("----------Updated--------- \n");
+//printf("\n Size of linked list:  %d ",size);
 
 Traverse(head);
 
-printf("Middle element is --- %d",Middle_element(head));
+//printf("Middle element is --- %d",Middle_element(head));
 }
